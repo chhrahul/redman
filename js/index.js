@@ -17,7 +17,7 @@
  * under the License.
  */
 
-function App (baseUrl = 'https://app.gabbi.ai') {
+function App (baseUrl = 'https://dev.gabbi.ai') {
   this.state = {}
   this.baseUrl = baseUrl
   this.frameEl = this.createFrame()
